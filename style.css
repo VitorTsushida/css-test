@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #dcd9c9;
+    color: #2f4538;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 550;
+}
+
+header{
+    padding: 5rem;
+    background-color: #c0c0c0;
+    text-align: center;
+}
+main{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section{
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h2{
+    color: #008b8b;
+}
+
+input[type="radio"]{
+    accent-color: #008b8b;
+    border: #008b8b;    
+}
+
+.botaoserio{
+    background-color: aquamarine;
+    color: #2f4538;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 3em;
+    transition: background-color 0.3s ease;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+button{
+    background-color: #2f4538;
+    color: #008b8b;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 7px;
+    font-size: 1em;
+    margin-top: 3px;
+    transition: backgroundcolor 0.5s ease;
+    cursor: pointer;
+}
+
+select{
+    border-radius: 100px;
+    cursor:pointer;
+    background-color: #008b8b;
+    border: none;
+
+}
+
+div{
+    display: inline-flex;
+}
+img{
+    width: 5rem;
+    border-radius: 60px;
+    padding: 2rem;
+}
+
+footer{
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ff69b4;
+}
+
+button:hover{
+    color: #190f4d;
+}

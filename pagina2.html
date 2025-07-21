@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste link de paginas + js</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <div class="boasvindas" >
+        <div class="zueira">
+        <a href="index.html">
+            <button>VOLTAR PARA PAGINA NAO SERIA </button>
+        </a>
+    </div>
+        <h1>BEM VINDO!</h1>
+        <p>Vou personalizar tudão usando css e js</p>
+        <div class="ola" id="saudacao"> Olá pessoas :P </div>
+        <button onclick="personalizacaoNome()">Personalizar nome!</button><br>
+        <a href="pagina3.html">
+            <button>IR PARA A PAGINA SUPER SERIA</button>
+        </a>
+    </div>
+<script>
+    function personalizacaoNome(){
+        let nome = prompt("Digite seu nome:")
+        document.getElementById("saudacao").textContent = "Olá " + nome
+}
+</script>
+
+</body>
+
+
+</html>

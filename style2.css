@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #331F19; 
+}
+.boasvindas {
+    text-align: center;
+    background-color: #CBBBA7;
+    padding: 80px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 700px;
+    border: 2px solid #8B7D70;
+}
+.ola {
+    font-size: 2em;
+    color: #60041A;
+    margin-top: 1px;
+
+}
+
+h1 {
+    color: #331F19;
+}
+p {
+    color: #331F19;
+    font-size: 1.1em;
+}
+button {
+    background-color: #60041A;
+    color: #F4F0EA;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #A34743;
+}
+
+.zueiras{
+    background-color: #050505;
+    color: #F4F0EA;
+    padding: 2px 2px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.5em;
+    transition: background-color 0.3s ease;
+    margin-top: 1px;
+    justify-content:start;
+}
